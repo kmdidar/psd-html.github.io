@@ -1,0 +1,61 @@
+.hero-area{
+	background-image: url(../img/Homepage_02.jpg);
+	background-color: #299ef7;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	line-height: 1.8;
+	padding: 80px 0;
+}
+.hero-area h1{
+	color: #fff;
+	font-size: 45px;
+	margin-top: 100px;
+}
+.boxed-btn, input[type="submit"]{
+	background-color: #06d6a0;
+}
+.boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #06d6a0;
+  color: #06d6a0;
+}
+.hero-form{
+	background: #FFF;
+	padding: 30px;
+	color: #333;
+	position: relative;
+	border-radius: 5px;
+	z-index: 1;
+}
+.hero-form:after{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #fff;
+	opacity: .2;
+	z-index: -1;
+	border-radius: 5px;
+}
+
+.hero-form-header {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hero-form-header > h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero-form input {
+    width: 100%;
+}
+.hero-form input[type="submit"] {
+    display: block;
+    margin: 35px auto 0;
+    width: 200px;
+}
