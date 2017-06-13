@@ -1,0 +1,74 @@
+h3 {
+    font-size: 22px;
+}
+.hero-area{
+	background-image: url(../img/Homepage_02.jpg);
+	background-color: #299ef7;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	line-height: 1.8;
+	padding: 80px 0;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background: #06d6a0 none repeat scroll 0 0;
+}
+.boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #06d6a0;
+  color: #06d6a0;
+}
+.hero-area h1{
+	color: #fff;
+	font-size: 45px;
+	margin-top: 100px;
+}
+
+.about-text h3 {
+    margin-bottom: 30px;
+}
+.about-text .boxed-btn {
+    margin-top: 20px;
+}
+
+.about-text {
+    margin-top: 50px;
+}
+.pdt-0{
+	padding-top: 0;
+}
+
+.single-service-box-2 {
+    background: #fbfbfb none repeat scroll 0 0;
+    display: table;
+    height: 250px;
+    text-align: center;
+    width: 100%;
+    transition: .3s;
+}
+.service-box-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.service-icon {
+    color: #2ae5f6;
+    font-size: 40px;
+    transition: .3s;
+}
+
+
+.single-service-box-2:hover{
+	background: #04befe;
+	background: -moz-linear-gradient(top,  #04befe 0%, #4481eb 100%);
+	background: -webkit-linear-gradient(top,  #04befe 0%,#4481eb 100%);
+	background: linear-gradient(to bottom,  #04befe 0%,#4481eb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04befe', endColorstr='#4481eb',GradientType=0 );
+
+}
+.single-service-box-2 .service-icon .zmdi,.service-icon i.fa, .single-service-box-2 h3{
+	transition: .3s;
+}.single-service-box-2:hover .service-icon .zmdi, .single-service-box-2:hover h3, .single-service-box-2:hover i.fa{
+	color: #fff;
+}
