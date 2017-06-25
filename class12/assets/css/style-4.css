@@ -1,0 +1,231 @@
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+body{
+    line-height: 1.6;
+    font-weight: 300;
+}
+.homepage-hero-area-4{
+	background-image: url(../img/Homepage_4.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	position: relative;
+	z-index: 1;
+}
+.homepage-hero-area-4:after{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	content: "";
+	opacity: .25;
+	background: #073b4c;
+	z-index: -1;
+	left: 0;
+	top: 0;
+}
+
+html, body, .homepage-hero-area-4, .single-slide-item {
+    height: 100%;
+}
+.single-slide-item {
+    display: table;
+    width: 100%;
+}
+.single-slide-wraper {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    color: #fff;
+    font-weight: 300;
+}
+
+.single-slide-wraper h2 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.website-chack-form input {
+    background: #073b4c none repeat scroll 0 0;
+    border: medium none #073b4c;
+}
+.website-chack-form{
+	margin-top: 30px;
+}
+.boxed-btn, input[type="submit"], button[type="submit"]{
+    background: #06d6a0;
+}
+.boxed-btn, input[type="submit"], button[type="submit"]{
+    background: #06d6a0;
+}
+
+
+.offcanvas-munushade {
+    background: #073b4c none repeat scroll 0 0;
+    height: 100%;
+    opacity: 0.7;
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.offcanvas-munushade.active{
+	opacity: .7;
+	visibility: visible;
+}
+
+.offcanvace-menu {
+    background: #fff none repeat scroll 0 0;
+	color: #373737;
+	height: 100%;
+	left: -300px;
+	opacity: 0;
+	padding-top: 35px;
+	position: fixed;
+	top: 0;
+	transition: all 0.3s ease 0s;
+	visibility: hidden;
+	width: 300px;
+	z-index: 999;
+}
+
+.offcanvace-menu.show-offcanvace-menu {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.offcanvace-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    line-height: 2.3;
+}
+.menu-close {
+    cursor: pointer;
+    padding: 16px;
+    position: absolute;
+    right: 0;
+}
+.menu-close i.fa {
+    padding-right: 5px;
+}
+
+.menu-logo > img {
+    padding: 0 50px;
+}
+.offcanvace-menu ul li a{
+    color: #373737;
+    transition: .3s;
+}
+.offcanvace-menu ul li:hover a{
+    color: #06D6A0;
+}
+
+.off-canvace-menu-top {
+    padding-bottom: 70px;
+}
+.off-canvace-menu-footer {
+    padding-left: 35px;
+    padding-top: 150px;
+}
+.off-canvace-menu-footer ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.off-canvace-menu-footer ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.off-canvace-menu-footer li a .zmdi {
+    padding-right: 6px;
+}
+
+.menu-triger, .search-menu-triger {
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.tile-galerry {
+    position: relative;
+    padding-right: 20px;
+}
+.tile-galerry.text-right > img {
+    box-shadow: 0 8px 12px #ddd;
+    border-radius: 3px;
+}
+.absoluate-tile-img {
+    left: 0;
+    position: absolute;
+    top: 80px;
+}
+
+.inline-btn {
+    color: #06d6a0;
+    display: inline-block;
+    padding-top: 15px;
+}
+.service-box-2 {
+    margin-bottom: 50px;
+    min-height: 200px;
+}
+
+.service-icon-table {
+    color: #06d6a0;
+    display: table;
+    font-size: 30px;
+    height: 100%;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.service-icon-tablecell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.service-section{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 40px;
+    padding-top: 90px;
+    margin-top: 110px;
+}
+.service-section::after{
+    background: #fdfdfd;
+    position: absolute;
+    left: 0;top: 0;
+    width: 55%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    box-shadow: 0 5px 10px #f4f4f4;
+}
+.service-section::before{
+    background-image: url(../img/service4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    width: 50%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;top: -60px;
+    box-shadow: 0 10px 10px #f4f4f4;
+    border-radius: 3px;
+}
+
+
+
