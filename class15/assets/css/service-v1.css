@@ -1,0 +1,17 @@
+/* ===================== 
+	Base CSS
+   ===================== */
+
+.box-button{background:#06D6A0;}
+.box-button:hover:hover{background:#00AF7A;}
+
+
+ /* ===================== 
+	Main Menu area CSS
+   ===================== */
+
+
+.main-menu ul li a:hover{
+    color: #06D6A0;
+}
+

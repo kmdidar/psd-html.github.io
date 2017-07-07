@@ -1,0 +1,30 @@
+
+/* ===================== 
+    Base CSS
+  ===================== */
+ 
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+ p {
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+html, body, .single-item-wrapper, .single-item-wrapper, .theme4-hero-area {
+    height: 100%;
+}
+ 
