@@ -144,7 +144,7 @@ a:hover { text-decoration: none }
     background-image: url(../img/case-study-35.jpg);
 }
 .case-study-bg-4{
-    background-image: url(../img/case-study-32.jpg);
+    background-image: url(../img/case-study-bg-4-theme-2.jpg);
 }
 .case-study-bg-5{
     background-image: url(../img/case-study-bg-5-theme-2.jpg);
@@ -1289,22 +1289,35 @@ p.blog-meta{
     content: "";
     height: 100%;
     width: 100%;
-    background-image: url(../img/company-logos/company-logo-1.png);
     background-repeat: no-repeat;
     z-index: 1;
 }
 .single-logo-item img{
-    opacity: 0;
+    opacity: 1;
     position: relative;
     transition: .3s;
-}
-.single-logo-item:hover img{
-    opacity: 1;
-    z-index: 2;
 }
 .pricing-area .owl-carousel .owl-item img {
     display: inline-block;
     width: inherit;
+    width: 100%;
+}
+.single-logo-item {
+    display: table;
+    height: 100px;
+    width: 100%;
+    opacity: .7;
+    transition: .3s;
+}
+.single-logo-item:hover{
+    opacity: 1;
+}
+
+.single-logo-tablecell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
 }
 /*===================
 | Footer Area  Css|
